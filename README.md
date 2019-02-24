@@ -9,11 +9,11 @@ PKU选课自动刷新工具
 #### mail.py:
 
 1、填好自己邮箱(默认163)的账号密码  
-运行：python PKUelective.py
 
 #### 配置chromedriver:
-1、参考https://blog.csdn.net/JavaLixy/article/details/77874715
+1、程序基于selenium+chrome，需要配置chromedriver，不然会有WebDriverException。参考https://blog.csdn.net/JavaLixy/article/details/77874715
 
+运行：python PKUelective.py
 程序调用chrome自动刷新，课有空位的时候向邮箱发送邮件  
 使用python3 selenium库
 
